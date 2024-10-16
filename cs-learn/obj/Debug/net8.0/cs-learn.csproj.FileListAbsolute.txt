@@ -1,0 +1,14 @@
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\bin\Debug\net8.0\cs-learn.exe
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\bin\Debug\net8.0\cs-learn.deps.json
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\bin\Debug\net8.0\cs-learn.runtimeconfig.json
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\bin\Debug\net8.0\cs-learn.dll
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\bin\Debug\net8.0\cs-learn.pdb
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.AssemblyInfoInputs.cache
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.AssemblyInfo.cs
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.csproj.CoreCompileInputs.cache
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.dll
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\refint\cs-learn.dll
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.pdb
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\cs-learn.genruntimeconfig.cache
+C:\Users\gabin\RiderProjects\cs-learn\cs-learn\obj\Debug\net8.0\ref\cs-learn.dll
