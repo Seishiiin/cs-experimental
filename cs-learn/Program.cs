@@ -1,31 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace cs_learn {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("Saisissez un nombre : ");
-            string? nb1 = Console.ReadLine();
+            int nb = int.Parse(Console.ReadLine()!);
             
-            Console.WriteLine("Saisissez un autre nombre : ");
-            string? nb2 = Console.ReadLine();
+            Console.WriteLine("Saisissez un deuxième nombre : ");
+            int nb2 = int.Parse(Console.ReadLine()!);
+            
+            Console.WriteLine("|-- Choisissez une option --|");
+            Console.WriteLine("|  1 - Addition            |");
+            Console.WriteLine("|  2 - Soustraction        |");
+            Console.WriteLine("|  3 - Multiplication      |");
+            Console.WriteLine("|  4 - Division            |");
+            Console.WriteLine("|  5 - Modulo              |");
+            Console.WriteLine("|--------------------------|");
+            Console.WriteLine("Votre choix : ");
+            int choice = int.Parse(Console.ReadLine()!);
 
-            // Ajouter une séparation entre les saisies et les résultats
-            Console.WriteLine();
-            Console.WriteLine("|-------------------- RESULTATS --------------------|");
-            
-            if (nb1 != null && nb2 != null) {
-                int nombre1 = int.Parse(nb1);
-                int nombre2 = int.Parse(nb2);
-                
-                
-                Console.WriteLine("La somme de " + nombre1 + " et " + nombre2 + " est égale à " + (nombre1 + nombre2));
-                Console.WriteLine("La différence de " + nombre1 + " et " + nombre2 + " est égale à " + (nombre1 - nombre2));
-                Console.WriteLine("Le produit de " + nombre1 + " et " + nombre2 + " est égale à " + (nombre1 * nombre2));
-                Console.WriteLine("Le quotient de " + nombre1 + " et " + nombre2 + " est égale à " + (nombre1 / nombre2));
-                Console.WriteLine("Le reste de la division de " + nombre1 + " par " + nombre2 + " est égale à " + (nombre1 % nombre2));
+            switch (choice) {
+                case 1:
+                    Console.WriteLine((nb) + " + " + (nb2) + " = " + (nb + nb2));
+                    break;
+                case 2:
+                    Console.WriteLine((nb) + " - " + (nb2) + " = " + (nb - nb2));
+                    break;
+                case 3:
+                    Console.WriteLine((nb) + " * " + (nb2) + " = " + (nb * nb2));
+                    break;
+                case 4:
+                    Console.WriteLine((nb) + " / " + (nb2) + " = " + (nb / nb2));
+                    break;
+                case 5:
+                    Console.WriteLine((nb) + " % " + (nb2) + " = " + (nb % nb2));
+                    break;
+                default:
+                    Console.WriteLine("Saisie non valide");
+                    break;
             }
         }
     }
