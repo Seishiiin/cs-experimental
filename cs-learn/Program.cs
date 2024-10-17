@@ -36,7 +36,7 @@ namespace cs_learn {
                     Console.WriteLine((nb) + " % " + (nb2) + " = " + (nb % nb2));
                     break;
                 default:
-                    Console.WriteLine("Saisie non valide");
+                    Console.WriteLine("Veuillez choisir une option valide.");
                     break;
             }
         }
